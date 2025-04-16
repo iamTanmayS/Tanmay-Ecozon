@@ -18,17 +18,16 @@
     "react-scripts": "^5.0.1",
     "react-scroll-up-button": "^1.6.4",
     "recharts": "^2.9.0",
-    "react-currency-format": "^1.1.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "preinstall": "echo Installing with legacy-peer-deps",
-    "install:legacy": "npm install --legacy-peer-deps",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
+  "preinstall": "echo Installing with legacy-peer-deps",
+  "install:legacy": "npm install --legacy-peer-deps",
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject"
+},
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -48,7 +47,7 @@
     ]
   },
   "devDependencies": {
-    "tailwindcss": "^3.3.3",
-    "react-currency-format": "^1.1.0"
+    "react-currency-format": "^1.1.0",
+    "tailwindcss": "^3.3.3"
   }
 }
