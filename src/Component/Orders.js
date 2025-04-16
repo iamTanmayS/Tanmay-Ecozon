@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "../Css/Orders.css";
 import { useStateValue } from "../StateProvider";
-import CheckoutProduct from "./CheckoutProduct";
+// import CheckoutProduct from "./CheckoutProduct";
 import OrderedProduct from "./orderedProduct";
 
 function Orders() {

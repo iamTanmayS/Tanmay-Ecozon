@@ -1,14 +1,15 @@
 import React, { useState } from "react";
 import "../Css/ProductDetails.css";
-import { TbTruckDelivery } from "react-icons/tb";
-import { FaAmazonPay } from "react-icons/fa";
-import { GiCheckedShield, GiLaurelsTrophy } from "react-icons/gi";
+// import { TbTruckDelivery } from "react-icons/tb";
+// import { FaAmazonPay } from "react-icons/fa";
+// import { GiCheckedShield, GiLaurelsTrophy } from "react-icons/gi";
 import { useStateValue } from "../StateProvider";
 
 function ProductDetails1() {
   const [selectedImage, setSelectedImage] = useState("../images/Bag1.png");
 
-  const [{ basket }, dispatch] = useStateValue();
+  const [dispatch] = useStateValue();
+  // const [{ basket }, dispatch] = useStateValue();
 
   const addToBasket = (id, title, image, price, rating, badge_id) => {
     dispatch({

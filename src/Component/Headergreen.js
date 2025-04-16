@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { useStateValue } from "../StateProvider";
 
 function Header() {
-  const [{ basket }, dispatch] = useStateValue();
+  const [{ basket }] = useStateValue();
 
   const handleLinkClick = () => {
     // Scroll to the top of the page when the link is clicked

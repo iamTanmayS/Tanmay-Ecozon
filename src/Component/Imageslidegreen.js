@@ -26,7 +26,7 @@ function ImageSliderGreen() {
     return () => {
       clearInterval(interval);
     };
-  }, [val]);
+  }, [val,handleNext]);
 
   return (
     <div className="main">
@@ -39,10 +39,10 @@ function ImageSliderGreen() {
       )}
       <div className="slider-controls">
         <button onClick={handlePrev} className="prev-buttong">
-          <img className="arrowg" src="../images/prev.png"/> 
+          <img className="arrowg" src="../images/prev.png" alt="Image"/> 
         </button>
         <button onClick={handleNext} className="next-buttong">
-        <img className="arrowg" src="../images/next.png"/>
+        <img className="arrowg" src="../images/next.png" alt="Image"/>
         </button>
       </div>
     </div>

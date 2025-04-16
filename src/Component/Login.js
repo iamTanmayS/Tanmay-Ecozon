@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import "../Css/Login.css";
-import { Link, useHistory } from "react-router-dom";
+import { Link} from "react-router-dom";
 
 function Login(){    
     return (
@@ -9,6 +9,7 @@ function Login(){
             <img
             className="login__logo"
             src="../images/amazon_black.jpg"
+            alt="login"
             />
             </Link>
         <div className="login__container">

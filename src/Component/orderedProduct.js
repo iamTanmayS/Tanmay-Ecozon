@@ -4,7 +4,7 @@ import { useStateValue } from "../StateProvider";
 import { Link } from "react-router-dom";
 
 function OrderedProduct({ id, image, title, price, rating, badge_id }) {
-  const [{ basket }, dispatch] = useStateValue();
+  // const [{ basket }, dispatch] = useStateValue();
   const [showOkText, setShowOkText] = useState(false); // Add state for text visibility
   const [isButtonDisabled, setButtonDisabled] = useState(false); // Add state to disable the button
 

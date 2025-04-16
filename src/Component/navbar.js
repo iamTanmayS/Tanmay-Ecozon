@@ -47,17 +47,17 @@ const AmazonNavigationBar = () => {
     <div className="amazon-nav">
       <div className="amazon-nav-section">
         <ul className="amazon-nav-list">
-          <li><a href="#">All</a></li>
-          <li><a href="#">Fresh</a></li>
-          <li><a href="#">Today's Deals</a></li>
-          <li><a href="#">Buy Again</a></li>
-          <li><a href="#">Electronics</a></li>
-          <li><a href="#">Amazon Pay</a></li>
-          <li><a href="#">Home & Kitchen</a></li>
-          <li><a href="#">Amazon miniTV</a></li>
-          <li><a href="#">Sell</a></li>
-          <li><a href="#">Gift cards</a></li>
-          <li><a href="#">Health, Household & Personal Care</a></li>
+          <li><a href="/">All</a></li>
+          <li><a href="/">Fresh</a></li>
+          <li><a href="/">Today's Deals</a></li>
+          <li><a href="/">Buy Again</a></li>
+          <li><a href="/">Electronics</a></li>
+          <li><a href="/">Amazon Pay</a></li>
+          <li><a href="/">Home & Kitchen</a></li>
+          <li><a href="/">Amazon miniTV</a></li>
+          <li><a href="/">Sell</a></li>
+          <li><a href="/">Gift cards</a></li>
+          <li><a href="/">Health, Household & Personal Care</a></li>
           
           <div className='popover_trigger_nav'>
             <Link style={{textDecoration: 'none'}} to = "/green">

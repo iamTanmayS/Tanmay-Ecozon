@@ -5,7 +5,7 @@ import { useStateValue } from "../StateProvider";
 import { Link } from "react-router-dom";
 
 function Productbutton({ title, image, id, price, rating, badge_id }) {
-  const [{ basket }, dispatch] = useStateValue();
+  const [dispatch] = useStateValue();
 
   const handleLinkClick = () => {
     // Scroll to the top of the page when the link is clicked

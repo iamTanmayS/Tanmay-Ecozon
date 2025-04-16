@@ -2,7 +2,7 @@ import React from "react";
 import "../Css/Homegreen.css";
 import Product from "./Productgreen";
 import ImageSliderGreen from "./Imageslidegreen";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 function Homegreen() {
   return (

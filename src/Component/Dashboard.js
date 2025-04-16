@@ -1,5 +1,5 @@
 import React from 'react';
-import { BsFillArchiveFill, BsPeopleFill, BsFillBellFill } from 'react-icons/bs';
+// import { BsFillArchiveFill, BsPeopleFill, BsFillBellFill } from 'react-icons/bs';
 import {
   XAxis,
   YAxis,
@@ -57,13 +57,13 @@ function Home() {
 
   const COLORS = ['#AADB08', '#8AE804', '#64CF04', '#03BB03', '#008000'];
 
-  const BADGEIMG = [
-    "../images/badge1.png",
-    "../images/badge2.png",
-    "../images/badge3.png",
-    "../images/badge4.png",
-    "../images/badge5.png"
-  ]
+  // const BADGEIMG = [
+  //   "../images/badge1.png",
+  //   "../images/badge2.png",
+  //   "../images/badge3.png",
+  //   "../images/badge4.png",
+  //   "../images/badge5.png"
+  // ]
 
   return (
     <div className="main-container">

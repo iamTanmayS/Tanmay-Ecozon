@@ -1,13 +1,13 @@
-import React, { useState } from "react";
+import React from "react";
 import "../Css/Subtotal.css";
 import { NumericFormat } from 'react-number-format';
 import { useStateValue } from "../StateProvider";
 import { getBasketTotal } from "./reducer";
 import { Link } from "react-router-dom";
-import Orders from "./Orders";
+// import Orders from "./Orders";
 
 const Subtotal = () => {
-  const [{ basket, history }, dispatch] = useStateValue();
+  const [{ basket}, dispatch] = useStateValue();
 
   const handleProceed = () => {
     if (basket.length > 0) {
